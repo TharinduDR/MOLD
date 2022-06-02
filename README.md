@@ -10,8 +10,8 @@ MOLD
     │   MOLD_train.csv
     │   MOLD_test.csv
 └───MOLD_2.0
-    │   MOLD_train.csv
-    │   MOLD_test.csv
+    │   MOLDv2_train.csv
+    │   MOLDV2_test.csv
 ```
 
 ## MOLD 1.0
