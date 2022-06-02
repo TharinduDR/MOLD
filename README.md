@@ -6,7 +6,7 @@ The files included are:
 ```
 MOLD
 │   README.md  
-└───data
+└───MOLD_1.0
     │   MOLD_train.csv
     │   MOLD_test.csv
 ```
