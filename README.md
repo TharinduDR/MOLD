@@ -9,19 +9,23 @@ MOLD
 └───MOLD_1.0
     │   MOLD_train.csv
     │   MOLD_test.csv
+└───MOLD_2.0
+    │   MOLD_train.csv
+    │   MOLD_test.csv
 ```
+
+## MOLD 1.0
 - `MOLD_train.csv`: contains 1,875 annotated tweets for the training set.  
 - `MOLD_test.csv`: contains 625 annotated tweets for the test set. 
 
-
 The dataset was annotated using crowdsourcing. The gold labels were assigned taking the agreement of six annotators into consideration. No correction has been carried out on the crowdsourcing annotations. 
-Each instance in MOLD has been annotated as offensive or not_offensive
+Each instance in MOLD 1.0 has been annotated as offensive or not_offensive
 
 
 
 
 ## Citation
-If you used MOLD, please refer to this paper:
+If you use MOLD 1.0, please refer to this paper:
 
 ```bash
 @InProceedings{mold,
