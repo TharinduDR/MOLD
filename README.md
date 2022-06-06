@@ -5,15 +5,15 @@ The {M}arathi {O}ffensive {L}anguage {D}ataset (MOLD) contains a collection of 2
 The files included are: 
 ```
 MOLD
-│   experiments
+└─  experiments
 └───MOLD_1.0
-    │   MOLD_train.csv
-    │   MOLD_test.csv
+│   │   MOLD_train.csv
+│   │   MOLD_test.csv
 └───MOLD_2.0
-    │   MOLDv2_train.csv
-    │   MOLDV2_test.csv
+│   │   MOLDv2_train.csv
+│   │   MOLDV2_test.csv
 └───SeMOLD
-    │   tweets.csv
+│   │   tweets.csv
 │   README.md
 ```
 
@@ -25,18 +25,15 @@ The dataset was annotated using crowdsourcing. The gold labels were assigned tak
 Each instance in MOLD 1.0 has been annotated as offensive or not_offensive
 
 ## MOLD 2.0
-- `MOLDv2_train.csv`: contains 1,875 annotated tweets for the training set.  
-- `MOLDV2_test.csv`: contains 625 annotated tweets for the test set. 
+- `MOLDv2_train.csv`: contains 3,100 annotated tweets for the training set.  
+- `MOLDV2_test.csv`: contains 500 annotated tweets for the test set. 
 
 The dataset was annotated using crowdsourcing. The gold labels were assigned taking the agreement of six annotators into consideration. No correction has been carried out on the crowdsourcing annotations. 
-Each instance in MOLD 1.0 has been annotated as offensive or not_offensive
+Each instance in MOLD 1.0 has been annotated for three levels annotated using the popular OLID three-level hierarchical annotation schema; (A) Offensive Language Detection (B) Categorization of Offensive Language (C) Offensive Language Target Identification. 
 
 ## SeMOLD 
-- `MOLD_train.csv`: contains 1,875 annotated tweets for the training set.  
+- `MOLD_train.csv`: contains 8000 tweets annotated using semi-supervised learning.  
 
-
-The dataset was annotated using crowdsourcing. The gold labels were assigned taking the agreement of six annotators into consideration. No correction has been carried out on the crowdsourcing annotations. 
-Each instance in MOLD 1.0 has been annotated as offensive or not_offensive
 
 
 
