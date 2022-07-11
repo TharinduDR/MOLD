@@ -50,3 +50,21 @@ year = {2021}
 }
 ```
 
+If you use MOLD 2.0 or SeMOLD, please refer to this paper:
+
+```bash
+@article{Zampieri2022,
+author={Zampieri, Marcos and Ranasinghe, Tharindu and Chaudhari, Mrinal and Gaikwad, Saurabh and Krishna, Prajwal and Nene, Mayuresh and Paygude, Shrunali},
+title={Predicting the type and target of offensive social media posts in Marathi},
+journal={Social Network Analysis and Mining},
+year={2022},
+month={Jul},
+day={09},
+volume={12},
+number={1},
+pages={77},
+issn={1869-5469},
+doi={10.1007/s13278-022-00906-8},
+url={https://doi.org/10.1007/s13278-022-00906-8}
+}
+```
